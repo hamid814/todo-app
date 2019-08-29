@@ -24,10 +24,10 @@ const Todos = (props) => {
         todos.length > 0
           ? !filtered
             ? todos.map((t, index) => (
-              <TodoItem key={t.id} todo={t} />
+              <TodoItem key={t.id} todo={t} number={index} />
               ))
-            : todos.map(t => (
-              !t.done && <TodoItem key={t.id} todo={t} />
+            : todos.map((t, index) => (
+              !t.done && <TodoItem key={t.id} todo={t} number={index} />
             ))
           : <NoTodo />
       }
