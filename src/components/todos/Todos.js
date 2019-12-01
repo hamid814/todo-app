@@ -19,7 +19,7 @@ const Todos = (props) => {
   }, [todos]);
 
   return (
-    <div className='container-sm'>
+    <div className='container-sm mt-1'>
       {
         todos.length > 0
           ? !filtered

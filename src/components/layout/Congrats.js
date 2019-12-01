@@ -11,8 +11,8 @@ const Congrats = () => {
   }, [todos]);
 
   return (
-    <div className={`container-sm my-0 ${!allDone && 'd-n'}`}>
-      <div className='alert alert-success text-center text-bold'>
+    <div className={`container-sm mt-0 mb-0 ${!allDone && 'd-n'}`}>
+      <div className='alert alert-success text-center text-bold mt-0 mb-0'>
         Nice Job!
         Yoy have done all your works  
       </div>  
