@@ -30,7 +30,6 @@ const TodoBtnPanel = (props) => {
         Clear todos 
       </div>
     </div>
-    
   )
 }
 

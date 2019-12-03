@@ -561,8 +561,8 @@ button {
 }
 
 .container-sm {
-  max-width: 550px;
-  margin: 2rem auto;
+  width: 550px;
+  margin: 0 auto;
   overflow: hidden;
   padding: 0 2rem;
 }
@@ -814,4 +814,22 @@ table th {
     text-align: center;
     justify-content: center;
   }
+}
+
+::-webkit-scrollbar {
+  background: none;
+  width: 1vW;
+}
+
+::-webkit-scrollbar-button {
+  height: 1.72vh;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100vh;
+  background-color: #aaa;	
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
 }

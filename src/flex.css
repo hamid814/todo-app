@@ -1,0 +1,12 @@
+#root {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#todos-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 45vh;
+}

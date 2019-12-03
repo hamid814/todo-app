@@ -7,6 +7,7 @@ import TodoBtnPanel from './components/todos/TodoBtnPanel';
 
 import TodoState from './context/todo/TodoState';
 import './App.css';
+import './flex.css';
 
 const App = () => {
   return (
